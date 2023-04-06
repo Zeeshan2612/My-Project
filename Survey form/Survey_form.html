@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body style="margin: 5% 10% 5% 10%;">
+    <h1 style="text-align: center;"> Survey form to Submit your Resume and Personal data</h1>
+    <p style="text-align: center;"> <span><b> Note: </b></span> Form is to be Submitted atleast <b> 7 Days </b> prior to date</p>
+    <hr>
+    <h3 style="text-align: center;"> Personal Details</h3>
+       <form action="post" style="text-align: center;" >
+        <label for="Submit">First Name</label>
+        <input type="text" placeholder="Enter Your First Name" style="margin: 10px;">
+        <br>
+        <label for="Submit">Last Name</label>
+        <input type="text" placeholder="Enter Your Last Name" style="margin: 10px;">
+        <br>
+        <label for="Submit">Your Age</label>
+        <input type="text" placeholder="Enter Your Age" style="margin: 10px;">
+        <br>
+        <label for="Submit"> Gender </label>
+        <select name="a" id="Gender" style="margin: 10px;">
+            <option value="Male"> Male </option>
+            <option value="Female"> Female </option>
+            <option value="Other"> Other </option>
+        </select>
+        <br>
+        <label for="Submit">Your Email</label>
+        <input type="text" placeholder="Enter Your Email address" style="margin: 10px;">
+        <br>
+        <label for="Submit">Your Number</label>
+        <input type="text" placeholder="Enter Your Mobile Number" style="margin: 10px;">
+       </form>
+       <hr>
+       <h3 style="text-align: center;"> Check if you have these skills</h3>
+       <form action="post" style="text-align: center;">
+        <input type="checkbox" style="margin: 1%;"> HTML <br>
+        <input type="checkbox" style="margin: 1%;"> CSS <br>
+        <input type="checkbox" style="margin: 1%;"> JavaScript <br>
+        <input type="checkbox" style="margin: 1%;"> Bootstrap <br>
+        <input type="checkbox" style="margin: 1%;"> Node.js <br>
+        <input type="checkbox" style="margin: 1%;"> React.js
+       </form>
+       <hr>
+       <h3 style="text-align: center;"> Upload your Resume</h3>
+       <form action="/upload" method="post" enctype="multipart/form-data" style="text-align: center;">
+        <label for="file">Choose a file:</label>
+        <input type="file" id="file" name="file" style="padding: 0%;">
+        <br>
+        <input type="submit" value="Upload" style="margin: 2%;"> <br>
+        <input type="Submit" style="padding: 20px 40px;">
+      </form>
+</body>
+</html>
