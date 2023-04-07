@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    margin: 50px 100px 50px 100px;
+    /*border: 2px solid blue;*/
+}
+.personal_info{
+    height: 100%;
+    width: 30%;
+    background-color: gray;
+    color: white;
+    padding-bottom: 90px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    /*border-left: 2px solid;*/
+}
+h1{
+    margin-left: 40px;
+}
+h3{
+    margin-left: 40px;
+}
+hr{
+    margin-left: 40px;
+}
+.Experience_info{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+hr{
+    /*height: 1px;
+    color: gray;*/
+}
+.contact_details{
+    text-decoration: none;
+    list-style: none;
+}
+.contact_details li{
+    margin: 5px 10px 20px 10px;
+}
+.education_details{
+    text-decoration: none;
+    list-style: none;
+}
+.education_details li{
+    margin: 5px 10px 20px 10px;
+}
+.Profile_pic img{
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+}
+.Profile_pic{
+    margin: 30px 40px 10px 65px;
+}
+.experties_details{
+    text-decoration: none;
+    margin: 10px;
+}
+.experties_details li{
+    margin: 5px 10px 20px 10px;
+}
+.language_details{
+    text-decoration: none;
+    list-style: none;
+}
+.language_details li{
+    margin: 5px 10px 10px 10px;
+}
+.title_name{
+    margin: 40px 10px 2px 40px;
+    font-size: 60px;
+    font-style: normal;
+}
+.job_role{
+    font-size: 36px;
+    margin: 2px 10px 25px 40px;
+}
+.objective{
+    margin: 16px 30px 20px 40px;
+    font-weight: 500;
+}
+.experties_details h4,p{
+    margin: 10px 40px; 
+}
+.year-wise-experience{
+    margin: 30px 10px 50px 0px;
+}
+.references_details{
+    display: flex;
+    padding-bottom: 36px;
+}
+.references_contact_details{
+    font-size: 10px;
+}
