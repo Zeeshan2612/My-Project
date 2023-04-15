@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 0px 200px;
+    padding: 10px;
+    /*border: solid 1px blue;*/
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(228, 238, 207);
+}
+
+span{
+    color: rgb(32, 182, 231);
+}
+.formula-UI{
+    border: solid 2px rgb(25, 150, 189);
+    height: 400px;
+    width: 700px;
+    margin: 10px 50px 130px 130px;
+    border-radius: 7%;
+    background-color: white;
+}
+.value{
+    height: 35px;
+    width: 75px;
+    border-radius: 20%;
+    background-color: rgb(173, 210, 223);
+    border: none;
+}
+.container-1{
+    margin: 30px 10px 30px 10px;
+    cursor: pointer;
+    
+}
+.container-2{
+    margin: 10px 10px 30px 10px;
+    cursor: pointer;
+}
+.container-1 input{
+    margin: 30px;
+}
+.container-2 input{
+    margin: 10px 30px;
+}
+#find-BMI{
+    height: 55px;
+    width: 200px;
+    border-radius: 10%;
+    font-size: 25px;
+    background-color: rgb(32, 182, 231);
+    color: white;
+    border: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#result{
+    color:rgb(32, 182, 231) ;
+}

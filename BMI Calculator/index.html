@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/BMI Calculator/style.css">
+    <script src="/BMI Calculator/util.js"></script>
+    <title>Body Mass Index Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <p> <span>B</span>ody <span>M</span>ass <span>I</span>ndex Calculator </p>
+        <div class="formula-UI">
+            <div class="container-1">
+                <form action="post">
+                    <input class="value" id="age" type="text"> Age
+                    <input type="checkbox" name="gender" id="female">Female
+                    <input type="checkbox" name="gender" id="male">Male
+                </form>
+            </div>
+            <div class="container-2">
+                <form action="post">
+                    <input class="value" id="height" type="text" name="Height">Height(cm)
+                    <input class="value" id="weight" type="text" name="Weight">Weight(Kg)
+                </form>
+            </div>
+            <div >
+                <input type="submit" name="Calculate" id="find-BMI" onclick="calculateBMI()">
+            </div>
+        </div>
+        <p id="result"></p>
+        <p id="result1"></p>
+    </div>
+</body>
+</html>
